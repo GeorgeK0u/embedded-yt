@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js" defer></script>
+        <title>YouTube Embedded</title>
+    </head>
+
+    <body>
+		<header id="header">
+			<div>YT Embedded</div>
+		</header>
+
+        <section id="search-holder">
+            <input id="search-input" type="text" maxlength="254" placeholder="Search"/>
+            <button id="search-btn" type="button">Search</button>
+        </section>
+
+        <section id="clicked-video-holder">
+            <iframe id="clicked-video" referrerpolicy="origin-when-cross-origin" loading="lazy" allowfullscreen="true"></iframe>
+        </section>
+
+        <section id="video-results"></section>
+
+        <footer>
+            <button id="more-results-btn" type="button">Load more</button>
+        </footer>
+    </body>
+</html>
