@@ -1,6 +1,6 @@
 // constants
 // get/update stored quotas
-const API_KEY = 'Enter your API key', TODAY_DATE_STR = new Date().getDate().toString(), QUOTAS_REFILL_AMT = 10000, QUOTAS_PER_CALL_AMT = 100, QUOTAS_PER_VID_DESC_AMT = 1;
+const API_KEY = 'AIzaSyDrn07slgPiKCk-HzkTQWTH4yl2PEOs51w', TODAY_DATE_STR = new Date().getDate().toString(), QUOTAS_REFILL_AMT = 10000, QUOTAS_PER_CALL_AMT = 100, QUOTAS_PER_VID_DESC_AMT = 1;
 // CSS display types
 const INLINE_STR = 'inline', INLINE_BLOCK_STR = 'inline-block', BLOCK_STR = 'block', FLEX_STR = 'flex', NONE_STR = 'none'; 
 // datetime validation
